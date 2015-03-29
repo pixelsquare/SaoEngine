@@ -9,6 +9,12 @@
 #  include "Color3.h"
 # endif
 
+/**
+*	Transform library handles all the transformations
+*	needed by the gameobject and utilizes by 
+*	the developer.
+**/
+
 namespace TransformLibrary {
 	using namespace Vector3Library;
 	using namespace Color3Library;
@@ -32,12 +38,16 @@ namespace TransformLibrary {
 		void SetRotation(float angle, Vector3 rotAxis);
 		float GetAngle();
 		Vector3 GetAxis();
+
+
+
+
 	private:
-		Color3 color;
+		
+	protected:Color3 color;
 		Vector3 position;
 		Vector3 scale;
 		float rot; Vector3 axis;
-	protected:
 	};
 }
 

@@ -4,6 +4,11 @@
 #include <math.h>
 #include <array>
 
+/**
+*	Math library uses static methods
+*	for the developers quick implementation
+**/
+
 namespace MathLibrary {
 	class Math{
 	public:

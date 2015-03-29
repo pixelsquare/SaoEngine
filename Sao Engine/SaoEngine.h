@@ -5,17 +5,31 @@
 #  include "GameObject.h"
 # endif
 
-# ifndef __SAO_ENGINE_TIME_LIBRARY_H__
-#  include "Time.h"
+# ifndef __SAO_ENGINE_PARTICLE_LIBRARY_H__
+#  include "Particle.h"
 #  endif
+
+# ifndef __SAO_ENGINE_SOUNDS_LIBRARY_H__
+#include "Sounds.h"
+using namespace SoundLib::Library;
+#endif
+
+/**
+*	Sao Engine is the main or the entry point
+*	of the game. It handles every subsystem.
+*	which can be used by the developer outside
+*	the engine.
+**/
 
 namespace SaoEngine {
 	using namespace GameObjectLibrary;
 	using namespace TimeLibrary;
+	using namespace ParticleLibrary;
 
 	void StartFunc(void(*func)(void));
 	void UpdateFunc(void(*func)(void));
 	void Initialize(int argc, char** argv);
+	
 
 	struct Camera {
 		Vector3 position;
@@ -49,9 +63,11 @@ namespace SaoEngine {
 
 	bool GetKey(unsigned char key);
 	bool GetKeyDown(unsigned char key);
+	bool GetKeyUp(unsigned char key);
 	bool GetSpecialKey(int key);
 
 	void AddText(float x, float y, char* string);
+	void AddText(float x, float y, char* string, Vector3 pos, Color3 color);
 
 	float GetElapsedTime();
 	float GetDeltaTime();

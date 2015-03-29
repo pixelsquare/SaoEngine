@@ -1,5 +1,9 @@
 #include "Math.h"
 
+/**
+*	Math static functions declarations
+**/
+
 namespace MathLibrary {
 	Math::Math() { }
 

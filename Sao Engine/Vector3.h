@@ -5,6 +5,12 @@
 #  include "Math.h"
 # endif
 
+/**
+*	Vector3 Library handles all the variables needed
+*	by the developer. Since the engines uses 3-dimensional
+*	view, it is essential that we use XYZ to handles variables
+**/
+
 namespace Vector3Library {
 	using namespace MathLibrary;
 

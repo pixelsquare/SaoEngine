@@ -3,6 +3,12 @@
 
 #include <time.h>
 
+/**
+*	Time library handles all the time properties
+*	of the engine. It utilizes the glut time property
+*	it can be used as a timer.
+**/
+
 namespace TimeLibrary { 
 	class Time {
 	public:

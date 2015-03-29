@@ -13,6 +13,11 @@ namespace Vector3Library {
 		this->Z = z;
 	}
 
+	/**
+	*	Vector3 operators used to implement 
+	*	mathematical computations using the library.
+	**/
+
 	Vector3 &Vector3::operator=(const Vector3 &rhs)
 	{
 		this->X = rhs.X;
@@ -145,6 +150,10 @@ namespace Vector3Library {
 		return rhs;
 	}
 
+	/**
+	*	Operators used to compare 2 vectors
+	**/
+
 	bool Vector3::operator==(const Vector3 &other) { return (this->X == other.X && this->Y == other.Y && this->Z == other.Z); }
 
 	bool Vector3::operator!=(const Vector3 &other) { return (this->X != other.X || this->Y != other.Y || this->Z != other.Z); }
@@ -157,17 +166,33 @@ namespace Vector3Library {
 
 	bool Vector3::operator<=(const Vector3 &other) { return (this->X <= other.X || this->Y <= other.Y || this->Z <= other.Z); }
 
+	/**
+	*	Returns the length of the vector
+	**/
+
 	float Vector3::Length() {
 		return sqrtf(this->X * this->X + this->Y * this->Y + this->Z * this->Z);
 	}
+
+	/**
+	*	Normalizes the vector
+	**/
 
 	Vector3 &Vector3::Normalize() {
 		return (*this /= this->Length());
 	}
 
+	/**
+	*	Returns the Dot product of 2 vectors
+	**/
+
 	float Vector3::Dot(const Vector3& vec1, const Vector3& vec2) {
 		return vec1.X * vec2.X + vec1.Y * vec2.Y + vec1.Z * vec2.Z;
 	}
+
+	/**
+	*	Returns the Cross product of 2 vectors
+	**/
 
 	Vector3 Vector3::Cross(const Vector3& vec1, const Vector3& vec2) {
 		return Vector3(
@@ -176,9 +201,18 @@ namespace Vector3Library {
 			vec1.X * vec2.Y * vec1.Y * vec2.X);
 	}
 
+	/**
+	*	Prints out the vector
+	**/
+
 	void Vector3::toString() {
 		printf("%f %f %f\n", this->X, this->Y, this->Z);
 	}
+
+	/**
+	*	Static function declaration for the developers
+	*	quick implementation to the game scene
+	**/
 
 	Vector3 Vector3::Zero		= Vector3(0.0f, 0.0f, 0.0f);
 	Vector3 Vector3::One		= Vector3(1.0f, 1.0f, 1.0f);

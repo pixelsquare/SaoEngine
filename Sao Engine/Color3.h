@@ -1,6 +1,16 @@
 #ifndef __SAO_ENGINE_COLOR3_LIBRARY_H__
 #define __SAO_ENGINE_COLOR3_LIBRARY_H__
 
+/**
+*	Color library handles all the color
+*	variables needed by the gameobject.
+*	It also uses math operator which
+*	can be used to make cool effects.
+*	It also has static variables which
+*	can be used by the developer for quicker
+*	implementation.
+**/
+
 namespace Color3Library {
 	class Color3 {
 	public:

@@ -14,6 +14,11 @@ namespace Color3Library {
 		this->B = blue;
 	}
 
+	/**
+	*	Operators used in color to enable mathematical computations
+	*	within the color library.
+	**/
+
 	Color3 &Color3::operator=(const Color3 &rhs) {
 		this->R = rhs.R;
 		this->G = rhs.G;
@@ -136,6 +141,10 @@ namespace Color3Library {
 		return rhs;
 	}
 
+	/**
+	*	Operators used in comparing colors
+	**/
+
 	bool Color3::operator==(const Color3 &other) {
 		return (this->R == other.R && this->G == other.G && this->B == other.B);
 	}
@@ -160,9 +169,17 @@ namespace Color3Library {
 		return (this->R <= other.R || this->G <= other.G || this->B <= other.B);
 	}
 
+	/**
+	*	Prints out the value of the color
+	**/
+
 	void Color3::toString() {
 		printf("Color3 = (%.1f %.1f %.1f)\n", this->R, this->G, this->B);
 	}
+
+	/**
+	*	Static variables used to have a quicker implementation of the library
+	**/
 
 	Color3 Color3::Red		= Color3(1.0f, 0.0f, 0.0f);
 	Color3 Color3::Green	= Color3(0.0f, 1.0f, 0.0f);

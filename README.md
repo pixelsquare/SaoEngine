@@ -3,4 +3,4 @@
 
 * Language/s: C++
 
-* Description: A game engine able to create simple games.
+* Description: A game engine that uses OpenGL as its graphics library that enable developers to create simple games.

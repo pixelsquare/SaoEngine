@@ -61,6 +61,30 @@
     <Filter Include="Source Files\Transform">
       <UniqueIdentifier>{1eb53335-045d-4147-a468-c1b4589497ec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{c0b04361-f6eb-41e7-a0a4-beef4d620ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{02419c37-c32e-4f42-bc9f-1ee1bb2a7275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{24d7e355-5c4c-4fc1-af1e-b8d8ad1d2da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle">
+      <UniqueIdentifier>{a8d85563-d407-4d67-b5fc-21df5932343f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{4ee7ad03-ee6e-4609-8321-6a3801547c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particle">
+      <UniqueIdentifier>{7e6c728d-6350-461f-84bd-70361b33350e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImageLoader">
+      <UniqueIdentifier>{13a2b45f-b183-4646-b151-a999c0df2072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImageLoader">
+      <UniqueIdentifier>{63c23cf9-daea-45b6-80b2-36345ef61820}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -90,6 +114,18 @@
     <ClCompile Include="SaoEngine.cpp">
       <Filter>Source Files\Sao Engine</Filter>
     </ClCompile>
+    <ClCompile Include="Sounds.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Source Files\ImageLoader</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Collision.h">
@@ -115,6 +151,18 @@
     </ClInclude>
     <ClInclude Include="Vector3.h">
       <Filter>Header Files\Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Header Files\ImageLoader</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

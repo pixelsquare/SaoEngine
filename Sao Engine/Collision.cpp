@@ -5,11 +5,23 @@ namespace CollisionLibrary {
 		this->colliderOffset = Vector3(1.0f, 1.0f, 1.0f);
 	}
 
+	/**
+	*	Sets the collider size
+	**/
+
 	void Collision::SetColliderSize(Vector3 colSize) { this->colliderOffset = colSize; }
 
 	void Collision::SetColliderSize(float x, float y, float z) { this->colliderOffset = Vector3(x, y, z); }
 
+	/**
+	*	Gets the collider Size
+	**/
+
 	Vector3 Collision::GetColliderSize() { return this->colliderOffset; } 
+
+	/**
+	*	returns true when 2 colliders collide
+	**/
 
 	bool Collision::HasCollidedWith(Collision &object) {
 		bool xHasNotCollided =

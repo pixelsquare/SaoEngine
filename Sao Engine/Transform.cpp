@@ -9,6 +9,10 @@ namespace TransformLibrary {
 		this->axis = Vector3(0.0f, 0.0f, 0.0f);
 	}
 
+	/**
+	*	Sets the color of the gameobject
+	**/
+
 	void Transform::SetColor(Color3 Color) {
 		this->color = Color;
 	}
@@ -20,6 +24,10 @@ namespace TransformLibrary {
 	Color3 Transform::GetColor() { 
 		return this->color;
 	}
+
+	/**
+	*	Sets the scale of the gameobject
+	**/
 
 	void Transform::SetScale(Vector3 scl) {
 		this->scale = scl;
@@ -33,6 +41,10 @@ namespace TransformLibrary {
 		return this->scale; 
 	}
 
+	/**
+	*	Sets the position of the gameobject
+	**/
+
 	void Transform::SetPosition(Vector3 pos) {
 		this->position = pos;
 	}
@@ -44,6 +56,10 @@ namespace TransformLibrary {
 	Vector3 Transform::GetPosition() { 
 		return this->position; 
 	}
+
+	/**
+	*	Sets the rotation of the gameobject
+	**/
 
 	void Transform::SetRotation(float angle, Vector3 rotationAxis) {
 		this->rot = angle;

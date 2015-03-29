@@ -5,6 +5,13 @@
 #  include "Transform.h"
 # endif
 
+/**
+*	Collision library handles all collision done 
+*	inside the game. It uses AABB collision detection
+*	system. It also resizes according to the scale of
+*	the gameobject used.
+**/
+
 namespace CollisionLibrary {
 	using namespace TransformLibrary;
 
