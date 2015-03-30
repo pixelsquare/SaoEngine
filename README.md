@@ -1,6 +1,6 @@
 # SaoEngine
 * Project Name: Sao Engine
 
-* Language/s: C++
+* Game Engine: Sao Engine
 
 * Description: A game engine that uses OpenGL as its graphics library that enable developers to create simple games.
