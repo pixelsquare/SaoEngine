@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{d3f9f734-a585-4314-8671-c19f09be1cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Color">
+      <UniqueIdentifier>{22834bf0-bf45-4a9c-88d2-696aa84ede75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject">
+      <UniqueIdentifier>{4cc8afdc-a464-4c6b-a9d3-f3f9f204ecca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SaoEngine">
+      <UniqueIdentifier>{70c8b40e-37ed-43fb-9250-0e5ce9b2cc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Time">
+      <UniqueIdentifier>{2349866f-8e46-4554-943d-d5c3f4875828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Transform">
+      <UniqueIdentifier>{46af6c08-ba31-41a5-9b17-836e64aa53ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vector3">
+      <UniqueIdentifier>{5657907f-2484-41a9-990f-5bc13ed7147a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vector3">
+      <UniqueIdentifier>{9bf1939c-9a63-4fdc-8922-0788e5f1599d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{6c38b005-0152-4f69-99b0-f75ee9e133e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Color">
+      <UniqueIdentifier>{bd3a0c88-abc3-4fa8-aeec-75bc6e8afcfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{429d97fd-adb0-4782-a906-9644d685d8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sao Engine">
+      <UniqueIdentifier>{284d6ad5-b304-4399-81be-22efa66ac28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Time">
+      <UniqueIdentifier>{128c6578-e9bb-4e22-8976-89531ab3c2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transform">
+      <UniqueIdentifier>{1eb53335-045d-4147-a468-c1b4589497ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{c0b04361-f6eb-41e7-a0a4-beef4d620ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{02419c37-c32e-4f42-bc9f-1ee1bb2a7275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{24d7e355-5c4c-4fc1-af1e-b8d8ad1d2da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle">
+      <UniqueIdentifier>{a8d85563-d407-4d67-b5fc-21df5932343f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{4ee7ad03-ee6e-4609-8321-6a3801547c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particle">
+      <UniqueIdentifier>{7e6c728d-6350-461f-84bd-70361b33350e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImageLoader">
+      <UniqueIdentifier>{13a2b45f-b183-4646-b151-a999c0df2072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImageLoader">
+      <UniqueIdentifier>{63c23cf9-daea-45b6-80b2-36345ef61820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathf">
+      <UniqueIdentifier>{ffbc31d4-da7e-4691-b128-e77bdd5cc97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathf">
+      <UniqueIdentifier>{0d49025c-08d5-441f-ab17-6b29727b2971}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Vector3</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Color3.cpp">
+      <Filter>Source Files\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="SaoEngine.cpp">
+      <Filter>Source Files\Sao Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sounds.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Source Files\ImageLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathf.cpp">
+      <Filter>Source Files\Mathf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Color3.h">
+      <Filter>Header Files\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SaoEngine.h">
+      <Filter>Header Files\SaoEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Header Files\ImageLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>Header Files\Mathf</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
